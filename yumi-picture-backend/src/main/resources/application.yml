@@ -1,0 +1,13 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+spring:
+  application:
+    name: yumi-picture-backend
+  profiles:
+    active: local
