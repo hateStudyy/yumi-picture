@@ -4,7 +4,7 @@
       <a-col flex="200px">
         <router-link to="/">
           <div class="title-bar">
-            <img class="logo" src="../assets/logo.png" alt="logo" />
+            <img class="logo" src="../assets/yimo.jpeg" alt="logo" />
             <div class="title">玉米云图库</div>
           </div>
         </router-link>
