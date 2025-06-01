@@ -485,6 +485,7 @@ public class PictureServiceImpl extends ServiceImpl<PictureMapper, Picture>
                     .setSql("totalCount = totalCount - 1")
                     .update();
             ThrowUtils.throwIf(!update, ErrorCode.OPERATION_ERROR, "额度更新失败");
+            //todo 管理员无法删除图片
             return true;
         });
         // 异步清理文件
